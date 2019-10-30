@@ -22,7 +22,14 @@ class Home extends Component {
         this.setState({ products: data });
     }
 
-    handleAddProduct = product => {};
+    handleAddProduct = product => {
+        const { dispatch } = this.props;
+
+        dispatch({
+            type: 'ADD_TO_CART',
+            product,
+        });
+    };
 
     render() {
         const { products } = this.state;
