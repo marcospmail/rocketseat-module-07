@@ -1,1 +1,1 @@
-Simple virtual store using ReactJS, Redux, Saga, Styled Components, Json-Server as backend and  Reactotron for inspecting.
+Simple virtual store using reactjs, redux, saga, styled components, json-server as backend and reactotron for inspecting.
